@@ -1,22 +1,42 @@
+body{
+  margin: 0;
+}
 .container{
   background-color: lightgrey;
   height: 600px;
+
 }
 .score{
   background-color: grey;
   height: 100px;
-
+  font-family: helvetica;
+  font-size: 85px;
+  text-align: center;
 }
 .myturn{
   background-color: darkgrey;
   width: 50%;
   height: 100%;
   float: left;
+  font-size: 150px;
+  text-align: center;
+
 }
 .opponent{
   background-color: #C3C3C3;
   width: 50%;
   height: 100%;
   float: right;
-
+  font-size: 150px;
+  text-align: center;
+}
+.choises{
+  text-align: center;
+  font-size: 100px;
+  background-color: lightblue;
+  width: 100%;
+  margin: 0px;
+  height: 20%;
+  bottom: 0px;
+  position: absolute;
 }
