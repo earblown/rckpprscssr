@@ -1,0 +1,10 @@
+.container{
+  display: grid;
+  border: 2px green solid;
+  height: 600px;
+}
+.score{
+  margin: 2px;
+  border: solid red 2px;
+  height: 45px;
+}
