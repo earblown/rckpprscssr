@@ -1,1 +1,1 @@
-alert("Pick a choise my dude");
+//alert("Pick a choise my dude");

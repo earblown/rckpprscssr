@@ -7,14 +7,14 @@ body{
 
 }
 .score{
-  background-color: grey;
+  background-color: #2189a9c2;
   height: 100px;
   font-family: helvetica;
   font-size: 85px;
   text-align: center;
 }
 .myturn{
-  background-color: darkgrey;
+  background-color: #e0e0e0;
   width: 50%;
   height: 100%;
   float: left;
@@ -23,7 +23,7 @@ body{
 
 }
 .opponent{
-  background-color: #C3C3C3;
+  background-color: #cafaff;
   width: 50%;
   height: 100%;
   float: right;
@@ -32,11 +32,25 @@ body{
 }
 .choises{
   text-align: center;
+
   font-size: 100px;
   background-color: lightblue;
   width: 100%;
-  margin: 0px;
-  height: 20%;
-  bottom: 0px;
-  position: absolute;
+  margin-top: 270px;
+  height: auto;
+  bottom: ;
+  z-index: 10;
+}
+.choises .rock{
+width: 100px;
+float: left;
+
+}
+.choises .ppr{
+  float: left;
+  width:100px;
+}
+.choises .scissors{
+  width: 100px;
+  float: left;
 }
